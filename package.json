@@ -1,6 +1,6 @@
 {
-  "name": "euph0ria/laravel-datatables-vite",
-  "version": "0.5.5",
+  "name": "laravel-datatables-vite-nullreffix",
+  "version": "0.5.6",
   "description": "Laravel DataTables with jQuery, Bootstrap and Vite",
   "main": "js/index.js",
   "scripts": {
