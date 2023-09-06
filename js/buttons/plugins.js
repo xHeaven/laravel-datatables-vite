@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     let oTable = $('table');
     oTable.on('select.dt', function (e, dt, type, indexes) {
-        dt.rows({selected: true}).every(function (rowIdx, tableLoop, rowLoop) {
+        dt?.rows({selected: true}).every(function (rowIdx, tableLoop, rowLoop) {
             var data = this.data();
             if (data.deleted_at == null) {
                 dt.button('restore:name').disable();
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     oTable.on('deselect.dt', function (e, dt, type, indexes) {
-        dt.rows({selected: true}).every(function (rowIdx, tableLoop, rowLoop) {
+        dt?.rows({selected: true}).every(function (rowIdx, tableLoop, rowLoop) {
             var data = this.data();
             if (data.deleted_at == null) {
                 dt.button('restore:name').disable();
