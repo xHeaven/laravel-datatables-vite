@@ -1,6 +1,6 @@
 {
   "name": "laravel-datatables-vite",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "Laravel DataTables with jQuery, Bootstrap and Vite",
   "main": "js/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yajra/laravel-datatables-vite.git"
+    "url": "git+https://github.com/xHeaven/laravel-datatables-vite.git"
   },
   "keywords": [
     "yajra",
@@ -24,9 +24,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yajra/laravel-datatables-vite/issues"
+    "url": "https://github.com/xHeaven/laravel-datatables-vite/issues"
   },
-  "homepage": "https://github.com/yajra/laravel-datatables-vite#readme",
+  "homepage": "https://github.com/xHeaven/laravel-datatables-vite#readme",
   "dependencies": {
     "bootstrap": "^5.2.2",
     "bootstrap-icons": "^1.9.1",
