@@ -1,5 +1,5 @@
 {
-  "name": "euph0ria_/laravel-datatables-vite",
+  "name": "euph0ria/laravel-datatables-vite",
   "version": "0.5.5",
   "description": "Laravel DataTables with jQuery, Bootstrap and Vite",
   "main": "js/index.js",
